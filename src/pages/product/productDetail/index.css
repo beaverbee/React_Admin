@@ -1,0 +1,16 @@
+.detail-title {
+  color: #1DA57A;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.detail-header {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(53, 53, 53, 0.8);
+}
+.detail-header img {
+  width: 100px;
+  height: 100px;
+  margin: 0 15px;
+}

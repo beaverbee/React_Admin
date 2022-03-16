@@ -1,0 +1,22 @@
+.category-card {
+  padding: 0 15px;
+}
+.category-card .table-title {
+  color: #1DA57A;
+  cursor: pointer;
+}
+.category-card span[class^='iconfont'] {
+  font-family: "iconfont" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1DA57A;
+}
+.ant-btn-round {
+  height: 32px;
+  padding: 4px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+}

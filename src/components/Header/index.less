@@ -1,0 +1,54 @@
+.top-header {
+
+    height: 80px;
+    padding-left: 0;
+    background-color: #fff;
+    margin-bottom: 15px;
+
+    h3 {
+        line-height: 40px;
+    }
+
+    .top-header-top {
+        position: relative;
+        border-bottom: 1px solid #1da57a;
+        height: 40px;
+    }
+
+    .top-login-message {
+        position: absolute;
+        right: 20px;
+    }
+
+    .top-header-bottom {
+        position: relative;
+        height: 40px;
+
+        .top-header-bottom-left {
+            position: absolute;
+            line-height: 40px;
+            left: 30px;
+
+
+            span {
+                font-size: 20px;
+                font-weight: 600;
+                z-index: 2;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                border: 15px solid;
+                border-color: #fff transparent transparent transparent;
+                top: 40px;
+                left: 10px;
+            }
+        }
+
+
+    }
+}
+
