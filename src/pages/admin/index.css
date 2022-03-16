@@ -1,0 +1,14 @@
+.layout {
+  height: 100%;
+}
+.layout .header {
+  margin-bottom: 5px;
+}
+.layout .mid-content {
+  background-color: #fff;
+  margin: 0 16px;
+}
+.layout .bot-footer {
+  text-align: center;
+  color: rgba(88, 88, 88, 0.8);
+}

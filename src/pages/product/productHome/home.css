@@ -1,0 +1,25 @@
+.header-select input {
+  margin-left: 5px;
+}
+.header-select button {
+  margin-left: 5px;
+}
+.product-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-action span {
+  color: '#1DA57A';
+}
+.ant-btn-round {
+  font-size: 14px;
+  border-radius: 4px;
+}
